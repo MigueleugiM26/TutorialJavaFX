@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Yu Mincho';
+}
+
+* {
+font-family: 'Yu Mincho';
+-fx-text-fill: #808080;
+}
+
+.fundo {
+    -fx-background-color: #0f111a;
+}
+
+.menu {
+-fx-background-color: #090b10;
+}
+
+.buttonMenu {
+    -fx-background-color: #090b10;
+    -fx-text-fill: #808080;
+    -fx-text-alignment: center;
+    -fx-background-radius: 15;
+}
+
+.buttonMenu:hover {
+    -fx-background-color: #1e2536;
+    -fx-background-radius: 15;
+}
+
+.buttonMenu:pressed {
+    -fx-background-color: #0a101e;
+    -fx-background-radius: 15;
+}
+
+.buttonSelected {
+    -fx-background-color: #0f111a;
+        -fx-background-radius: 15;
+}
+
+.buttonSelected:hover {
+    -fx-background-color: #0f111a;
+    -fx-background-radius: 15;
+}
+
+.buttonSelected:pressed {
+    -fx-background-color: #0f111a;
+    -fx-background-radius: 15;
+}
+
+.labelMenu {
+-fx-text-fill: #808080 !important;
+}
+
+.text-field {
+    -fx-background-color: #090b10;
+    -fx-text-fill: #808080;
+}
+
+.list-view {
+    -fx-background-color: #090b10 !important;
+    -fx-control-inner-background: #090b10 !important;
+    -fx-selection-bar: #090b10 !important;
+    -fx-selection-bar: #0c111b !important;
+}
+
+.list-view .scroll-bar {
+    -fx-background-color: #1e2536 !important;
+}
+
+.list-view .scroll-bar .thumb {
+    -fx-background-color: #090b10 !important;
+}
+
+.list-view .scroll-bar .thumb:hover {
+    -fx-background-color: #0d1423 !important;
+}
+
+.list-view .scroll-bar .thumb:pressed {
+    -fx-background-color: #0a101e !important;
+}
+
+.list-view .scroll-bar .increment-button {
+    -fx-background-color: #090b10 !important;
+}
+
+.list-view .scroll-bar .decrement-button {
+    -fx-background-color: #090b10 !important;
+}
+
+.list-view .scroll-bar .increment-button:hover {
+    -fx-background-color: #0d1423 !important;
+}
+
+.list-view .scroll-bar .decrement-button:hover {
+    -fx-background-color: #0d1423 !important;
+}
+
+.list-view .scroll-bar .increment-button:pressed {
+    -fx-background-color: #0a101e !important;
+}
+
+.list-view .scroll-bar .decrement-button:pressed {
+    -fx-background-color: #0a101e !important;
+}
